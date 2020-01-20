@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{RXBc:function(e,n,t){"use strict";t.r(n);var a=t("q1tI"),o=t.n(a),l=(t("Wbzz"),t("Bl7J")),c=t("vrFN");n.default=function(){return o.a.createElement(l.a,null,o.a.createElement(c.a,{title:"Home"}),o.a.createElement("h1",null,"Web Development based upon composition and strong principles"))}}}]);
+//# sourceMappingURL=component---src-pages-index-js-ce6a6a299ef1402b83be.js.map
