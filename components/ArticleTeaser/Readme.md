@@ -1,0 +1,5 @@
+### ArticleTeaser
+
+```js
+  <ArticleTeaser />
+```

@@ -1,0 +1,5 @@
+### SectionEditable
+
+```js
+  <SectionEditable />
+```

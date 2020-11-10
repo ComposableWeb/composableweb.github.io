@@ -1,5 +1,5 @@
 ### PageFooter
 
 ```js
-  <PageFooter />
+<PageFooter />
 ```

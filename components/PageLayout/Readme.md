@@ -1,5 +1,5 @@
 ### PageLayout
 
 ```js
-  <PageLayout />
+<PageLayout />
 ```

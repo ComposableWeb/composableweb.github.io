@@ -1,18 +1,28 @@
+import common from './common';
+
 export default {
-  pathPrefix: '/', // Prefix for all links. If you deploy your site to example.com/portfolio your pathPrefix should be "/portfolio"
-
-  siteTitle: 'ComposableWeb', // Navigation and Site Title
-  siteTitleAlt: 'Starter', // Alternative Site title for SEO
-  siteHeadline: 'Composable Web - ', // Headline for schema.org JSONLD
-  siteUrl: 'https://composableweb.com', // Domain of your site. No trailing slash!
-  siteLanguage: 'en', // Language Tag on <html> element
-  siteLogo: '/logo.png', // Used for SEO and manifest
-  siteDescription: 'Promoting Composability for the web',
-  siteImage: `/banner.jpg`,
-  author: 'Andreas Adam, ComposableWeb', // Author for schema.org JSONLD
-
-  // siteFBAppID: '123456789', // Facebook App ID - Optional
-  ogSiteName: 'TGS', // Facebook Site Name
-  ogLanguage: 'en_US', // Facebook Language
-  googleAnalyticsID: 'UA-123456777-5',
+  title: common.title,
+  canonical: common.url,
+  description: common.tagline,
+  openGraph: {
+    type: 'website',
+    locale: 'en_IE',
+    url: common.url,
+    title: common.title,
+    description: common.tagline,
+    images: [
+      {
+        url: 'https://composableweb.com/static/images/andreas-adam.png',
+        width: 1080,
+        height: 1080,
+        alt: `${common.title} | ${common.tagline}`,
+      },
+    ],
+    site_name: common.title,
+  },
+  twitter: {
+    handle: '@composable_web',
+    site: '@composable_web',
+    cardType: 'summary_large_image',
+  },
 };

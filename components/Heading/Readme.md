@@ -1,0 +1,5 @@
+### Heading
+
+```js
+<Heading />
+```

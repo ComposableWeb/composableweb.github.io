@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "esnext",
     "baseUrl": "./",
-    "lib": ["dom", "es2017"],
+    "lib": ["dom", "dom.iterable", "es2019"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": false,
@@ -14,12 +14,8 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "alwaysStrict": true,
-    "noFallthroughCasesInSwitch": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "paths": { "~components/*": ["components/*"] }
+    "paths": { "~components/*": ["components/*"], "~lib/*": ["lib/*"] }
   },
   "exclude": ["node_modules"],
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "**/*.js", "@types/*", ".eslintrc.js"]
 }

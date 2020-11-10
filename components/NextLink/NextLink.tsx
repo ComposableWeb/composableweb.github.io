@@ -1,9 +1,6 @@
-/** @jsx jsx */
-import { jsx, LinkProps } from 'theme-ui';
+import { Link, LinkProps } from '@chakra-ui/core';
 import { PropsWithChildren } from 'react';
 import { default as NLink, LinkProps as NLinkProps } from 'next/link';
-
-import { Link } from 'prestyled';
 
 type NextLinkProps = Omit<LinkProps, 'as'> & NLinkProps;
 
@@ -26,7 +23,7 @@ export const NextLink: React.FC<NextLinkProps> = ({
     passHref={passHref}
     prefetch={prefetch}
   >
-    <Link {...rest} as="a" />
+    <Link {...rest} />
   </NLink>
 );
 export default NextLink;

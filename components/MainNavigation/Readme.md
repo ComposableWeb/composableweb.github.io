@@ -1,5 +1,5 @@
 ### MainNavigation
 
 ```js
-  <MainNavigation />
+<MainNavigation />
 ```

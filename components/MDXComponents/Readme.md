@@ -1,0 +1,5 @@
+### MDXComponents
+
+```js
+<MDXComponents />
+```

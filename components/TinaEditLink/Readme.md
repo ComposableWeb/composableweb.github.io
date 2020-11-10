@@ -1,0 +1,5 @@
+### TinaEditLink
+
+```js
+<TinaEditLink />
+```

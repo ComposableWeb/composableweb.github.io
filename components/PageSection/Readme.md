@@ -1,5 +1,5 @@
 ### PageSection
 
 ```js
-  <PageSection />
+<PageSection />
 ```

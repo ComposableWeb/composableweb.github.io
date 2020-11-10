@@ -1,0 +1,5 @@
+### ArticleLayout
+
+```js
+<ArticleLayout />
+```

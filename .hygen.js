@@ -1,5 +1,5 @@
 module.exports = {
   helpers: {
-    src: () => `${__dirname}`
-  }
-}
+    src: () => `${__dirname}`,
+  },
+};

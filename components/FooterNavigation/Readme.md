@@ -1,0 +1,5 @@
+### FooterNavigation
+
+```js
+<FooterNavigation />
+```

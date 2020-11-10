@@ -1,11 +1,9 @@
-/** @jsx jsx */
-import { jsx, BoxProps } from 'theme-ui';
+import { Box, BoxProps } from '@chakra-ui/core';
 import { PropsWithChildren } from 'react';
-import { LandingPageSection, LandingPageSectionContent } from '~components/prestyled';
 
 export const PageSection: React.FC<BoxProps> = ({ children, ...rest }: PropsWithChildren<BoxProps>) => (
-  <LandingPageSection {...rest}>
-    <LandingPageSectionContent>{children}</LandingPageSectionContent>
-  </LandingPageSection>
+  <Box {...rest}>
+    <Box>{children}</Box>
+  </Box>
 );
 export default PageSection;

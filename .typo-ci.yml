@@ -1,0 +1,10 @@
+dictionaries:
+  - en
+  - de
+excluded_files:
+  - 'node_modules/**/*'
+  - 'yarn.lock'
+  - '.typo-ci.yml'
+
+excluded_words:
+  - composableweb
