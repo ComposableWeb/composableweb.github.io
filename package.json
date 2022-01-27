@@ -92,7 +92,7 @@
     "sharp": "^0.26.2",
     "slugify": "^1.4.6",
     "styled-components": "^5.2.1",
-    "three": "^0.122.0",
+    "three": "^0.137.0",
     "tinacms": "^0.32.0",
     "zod": "^1.11.10"
   },
